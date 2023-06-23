@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "24f15e57-f08f-4fd0-a5ea-69fbbf8280f5",
+		"name": "http://localhost:21340/api/LibroMaterial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9383135"
+	},
+	"item": [
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\":\"Memorias de un Developer\",\r\n    \"fechaPublicacion\":\"2022-05-19\",\r\n    \"autorLibro\":\"1ebe7a62-4b60-486d-8e0c-75a5f9d9c12c\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:21340/api/LibroMaterial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21340",
+					"path": [
+						"api",
+						"LibroMaterial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:21340/api/LibroMaterial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21340",
+					"path": [
+						"api",
+						"LibroMaterial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:21340/api/LibroMaterial/9432718a-9bd7-4c05-1cae-08da99220e50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21340",
+					"path": [
+						"api",
+						"LibroMaterial",
+						"9432718a-9bd7-4c05-1cae-08da99220e50"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

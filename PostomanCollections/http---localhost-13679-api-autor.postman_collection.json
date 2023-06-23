@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "8adf630f-decb-4659-b9fa-687a75464bf6",
+		"name": "http://localhost:13679/api/autor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9383135"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"\",\r\n    \"apellido\":\"\",\r\n    \"FechaNacimiento\":\"1986-01-19\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:13679/api/autor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "13679",
+					"path": [
+						"api",
+						"autor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:13679/api/autor/1ebe7a62-4b60-486d-8e0c-75a5f9d9c12c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "13679",
+					"path": [
+						"api",
+						"autor",
+						"1ebe7a62-4b60-486d-8e0c-75a5f9d9c12c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:13679/api/autor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "13679",
+					"path": [
+						"api",
+						"autor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
